@@ -1,0 +1,11 @@
+// Lets load foundation!
+@import "../bower_components/foundation/scss/normalize.scss";
+@import "../bower_components/foundation/scss/foundation.scss";
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+
+
+// Here we import our own styles
+@import "layouts/master";
+@import "plugins/slick";
+@import "modules/portfolio"
+

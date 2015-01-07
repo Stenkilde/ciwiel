@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="ciwielCosplay">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/foundation/js/foundation.js"></script>
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+	
+	<div class="fixed">
+		<nav class="top-bar" data-topbar role="navigation">
+			<ul class="title-area">
+				<li class="name">
+					<h1><a href="#">CiwielCosplay</a></h1>
+				</li>
+				<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			</ul>
+
+			<section class="top-bar-section">
+				<!-- left Nav Section -->
+				<ul class="left">
+					<li><a ui-sref="home">Home</a></li>
+					<li><a ui-sref="about">About</a></li>
+					<li><a ui-sref="portfolio">Portfolio</a></li>
+					<li><a ui-sref="contact">Contact</a></li>
+				</ul>
+			</section>
+		</nav>
+	</div>
+
+	<div class="view-content" ui-view></div>
+	
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="bower_components/slick.js/slick/slick.js"></script>
+	<script src="bower_components/angular-slick/dist/slick.js"></script>
+	<script src="scripts/configs/app.js"></script>
+	<script src="scripts/directives/center-crop.js"></script>
+
+
+</body>
+</html>

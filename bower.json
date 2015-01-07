@@ -1,0 +1,13 @@
+{
+  "name": "ciweiel",
+  "version": "0.0.0",
+  "authors": [
+    "Oliver Stenkilde <oliver@stenkilde.com>"
+  ],
+  "dependencies": {
+    "angular-slick": "~0.1.18",
+    "angular-ui-router": "~0.2.13",
+    "foundation": "~5.5.0",
+    "slick.js": "~1.3.15"
+  }
+}
