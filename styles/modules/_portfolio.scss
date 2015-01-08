@@ -26,18 +26,16 @@ $ziggs: "http://lolwp.com/wp-content/uploads/Ziggs_Splash_0.jpg";
 			content: "";
 			width: 200%;
 			height: 43.33%;
-			background-color: rgba(#000, 0.75);
+			background-color: rgba(82, 97, 110, 0.75);
 			left: -50%;
 			bottom: -10%;
 			position: absolute;
 			transform: rotate(-15deg);
-			color: #fff;
+			color: #000;
 			text-align: center;
 			padding-top: 20px;
 			text-transform: uppercase;
 			font-size: 40px;
-			font-family: 'Raleway';
-			font-weight: 100;
 		}
 		&.ryze {
 			background-image: url($ryze);
